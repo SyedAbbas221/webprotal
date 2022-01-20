@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>setting</title>
+    <link rel="stylesheet" href="style.css" />
+ 
+</head>
+<body>
+	<header>
+      <!-- NAV AREA  -->
+      <nav>
+        <ul class="site-width top-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="networking.html">Networking</a></li>
+          <li><a href="career.html">Careers</a></li>
+          <li><a href="chat.html">Chat</a></li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="maps.html">Maps</a></li>
+          <li>
+            <div class="header-top-right">
+              <div class="notification">
+                <img src="images/Bell_Icon_ffffff.png" alt="" />
+                <span>5</span>
+              </div>
+              <form action="#">
+                <input
+                  type="search"
+                  name="Search"
+                  id="search"
+                  placeholder="search"
+                />
+              </form>
+
+            </div>
+          </li>
+          <li><a href="settings.html">settings</a></li>
+          <li><a href="profile.html"><img src="images/user.png" alt="profile" class="profile wi-3" /></a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="container d_mt-5">
+      <div class="container">
+        <h2 class="d_mt-25 d-h2">Settings ans Preferences:</h2>
+        <hr>
+        <div class="main">
+          <div>
+            <form class="d-flex">
+            <span class="span">Who can see your profile</span>
+                  <label for="cars"></label>
+                  <select id="cars" name="cars" class="d_button">
+                    <option value="volvo">Everyone</option>
+                    <option value="saab">Friend of Friend</option>
+                    <option value="fiat">Friends only</option>
+                    <option value="audi">No one</option>
+                  </select>
+                </form>
+          </div>
+          
+          <div>
+            <form class="d-flex">
+            <span class="span">Who can see your Friend</span>
+                  <label for="cars"></label>
+                  <select id="cars" name="cars" class="d_button">
+                    <option value="volvo">Everyone</option>
+                    <option value="saab">Friend of Friend</option>
+                    <option value="fiat">Friends only</option>
+                    <option value="audi">No one</option>
+                  </select>
+                </form>
+          </div>
+          <div>
+            <form class="d-flex">
+            <span class="span">Language</span>
+                  <label for="cars"></label>
+                  <select id="cars" name="cars" class="d_button">
+                  <option value="volvo">English</option>
+                  <option value="saab">French</option>
+                </select>
+                </form>
+          </div>
+
+            <div class="p-25">Data Privacy and collection:</div>
+              <form action="/action_page.php">
+                <span>
+                  <input type="checkbox" id="one" class="one" name="one" value="Bike">
+                  <label for="one" class="d_label"> Agreeing to allow cookies</label>
+                </span>
+                  <br>
+                  <br>
+                <span>
+                  <input type="checkbox" id="two" class="one" name="two" value="Car">
+                  <label for="two" class="d_label"> Share data to 3<sup>rd</sup> party companies to help make your experience better</label>
+                </span>
+                  <br>
+                <br>
+                <span>
+                  <input type="checkbox" id="three" class="one" name="three" value="Boat">
+                  <label for="three" class="d_label"> Share data to Web Portal developers to help improve the website</label>
+                  <br><br>
+                </span>  
+                <input type="submit" value="Save" class="d_submit">
+              </form>
+        </div>
+         
+    </section>
+
+</body>
+</html>
